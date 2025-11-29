@@ -19,7 +19,7 @@ class CaptureThread(threading.Thread):
     counter = 0
     timer = 0.0
     def run(self):
-        self.cap = cv2.VideoCapture(global_vars.CAM_INDEX) # sometimes it can take a while for certain video captures
+        self.cap = cv2.VideoCapture(global_vars.CAM_INDEX) 
         if global_vars.USE_CUSTOM_CAM_SETTINGS:
             self.cap.set(cv2.CAP_PROP_FPS, global_vars.FPS)
             self.cap.set(cv2.CAP_PROP_FRAME_WIDTH,global_vars.WIDTH)
@@ -38,7 +38,6 @@ class CaptureThread(threading.Thread):
                     self.counter = 0
                     self.timer = time.time()
 
-# the body thread actually does the 
 # processing of the captured images, and communication with unity
 class BodyThread(threading.Thread):
     data = ""
