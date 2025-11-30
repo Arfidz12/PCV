@@ -7,12 +7,6 @@ import cv2
 import mediapipe as mp
 import numpy as np
 
-cap = cv2.VideoCapture(global_vars.CAM_INDEX)
-if global_vars.USE_CUSTOM_CAM_SETTINGS:
-    cap.set(cv2.CAP_PROP_FRAME_WIDTH, global_vars.WIDTH)
-    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, global_vars.HEIGHT)
-    cap.set(cv2.CAP_PROP_FPS, global_vars.FPS)
-
 # Try to use clientUDP module from repo if available (optional)
 _use_client_udp = False
 try:
