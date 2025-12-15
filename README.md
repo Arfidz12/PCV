@@ -26,8 +26,8 @@ Project ini tentang gimana ngetracking Sebuah Karakter(Avatar) dengan menggunaka
 # Cara Pakai
 1. Clone repository dan buka folder Python.
 
-2. Pasang dependensi Python: pip install -r requirements.txt pada folder Python.
+2. Pasang dependensi Python: pip install '-r requirements.txt' pada folder Python.
 
 3. Buka project Unity lalu import scene dan pastikan script C# untuk menerima UDP aktif. 
 
-4. Jalankan Python dengan py main.py jalankan scene Unity untuk melihat avatar merespons atau Buka Aplikasi pada BodyTracking.exe pada folder App.
+4. Jalankan Python dengan 'py main.py' jalankan scene Unity untuk melihat avatar merespons atau Buka Aplikasi pada BodyTracking.exe pada folder App.
