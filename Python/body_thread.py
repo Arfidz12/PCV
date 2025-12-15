@@ -1,4 +1,3 @@
-# MediaPipe Body
 from clientUDP import ClientUDP
 import mediapipe as mp
 import cv2
@@ -7,7 +6,6 @@ import time
 import global_vars 
 import struct
 
-# the capture thread captures images from the WebCam on a separate thread (for performance)
 class CaptureThread(threading.Thread):
     cap = None
     ret = None
@@ -35,7 +33,6 @@ class CaptureThread(threading.Thread):
                     self.counter = 0
                     self.timer = time.time()
 
-# processing of the captured images, and communication with unity
 class BodyThread(threading.Thread):
     data = ""
     dirty = True
@@ -62,19 +59,15 @@ class BodyThread(threading.Thread):
             while not global_vars.KILL_THREADS and capture.cap.isOpened():
                 ti = time.time()
 
-                # Fetch stuff from the capture thread
                 ret = capture.ret
                 image = capture.frame
                                 
-                # Image transformations and stuff
                 image = cv2.flip(image, 1)
                 image.flags.writeable = global_vars.DEBUG
-                
-                # Detections
+
                 results = pose.process(image)
                 tf = time.time()
-                
-                # Rendering results
+
                 if global_vars.DEBUG:
                     if time.time()-self.timeSincePostStatistics>=1:
                         print("Maximum FPS: %f"%(1/(tf-ti)))
@@ -88,7 +81,6 @@ class BodyThread(threading.Thread):
                     cv2.imshow('Body Tracking', image)
                     cv2.waitKey(3)
 
-                # Set up data for relay
                 self.data = ""
                 i = 0
                 if results.pose_world_landmarks:
@@ -116,7 +108,6 @@ class BodyThread(threading.Thread):
             self.client.sendMessage(message)
             pass
         else:
-            # Maintain pipe connection.
             if self.pipe==None and time.time()-self.timeSinceCheckedConnection>=1:
                 try:
                     self.pipe = open(r'\\.\pipe\UnityMediaPipeBody1', 'r+b', 0)
@@ -134,4 +125,5 @@ class BodyThread(threading.Thread):
                     print("Failed to write to pipe. Is the unity project open?")
                     self.pipe= None
         pass
+
                         
