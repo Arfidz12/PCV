@@ -12,6 +12,13 @@ Project ini tentang gimana ngetracking Sebuah Karakter(Avatar) dengan menggunaka
 # Komponen dan Fungsi
 | Komponen | Fungsi |
 |-------------|--------------|
-| Python capture module | SMendeteksi pose dan ekspresi dari webcam |
+| Python capture module | Mendeteksi pose dari webcam |
 | UDP bridge | Mengirimkan data pose ke Unity |
 |Unity avatar scene |	Menerjemahkan data menjadi animasi avatar |
+
+# requirements
+* Python 3.8+
+* OpenCV
+* MediaPipe
+* Unity 2021+ atau kompatibel
+* UDP networking permission
