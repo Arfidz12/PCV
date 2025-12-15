@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1260b785da3e24ebe737764cc33de0, type: 3}
+  m_Name: SantaClaus(Clone)708922fb6bab00e41a5cc4165f447609
+  m_EditorClassIdentifier: 
+  note: 
+  parentCalibrationData:
+  - bone: 14
+    data:
+      parentn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001
+        Spine2/Bip001 R Clavicle/Bip001 R UpperArm/
+      childn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001
+        Spine2/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/
+      tparentn: PipeServer/Body Parent/RIGHT_SHOULDER/
+      tchildn: PipeServer/Body Parent/RIGHT_ELBOW/
+      initialDir: {x: -0.99173665, y: -0.1155411, z: 0.05575473}
+      initialRotation: {x: 0.70710695, y: -0.0000005066395, z: 0.00000045420884, w: 0.7071068}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 16
+    data:
+      parentn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001
+        Spine2/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/
+      childn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001
+        Spine2/Bip001 R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/
+      tparentn: PipeServer/Body Parent/RIGHT_ELBOW/
+      tchildn: PipeServer/Body Parent/RIGHT_WRIST/
+      initialDir: {x: -0.92426294, y: -0.06464309, z: -0.37624353}
+      initialRotation: {x: 0.70710695, y: -0.0000005066395, z: 0.00000045420884, w: 0.7071068}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 2
+    data:
+      parentn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 R Thigh/
+      childn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/
+      tparentn: PipeServer/Body Parent/RIGHT_HIP/
+      tchildn: PipeServer/Body Parent/RIGHT_KNEE/
+      initialDir: {x: -0.098427705, y: -0.9928749, z: 0.06716708}
+      initialRotation: {x: 0.5000003, y: 0.50000036, z: -0.49999955, w: -0.49999973}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 4
+    data:
+      parentn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/
+      childn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/Bip001
+        R Foot/
+      tparentn: PipeServer/Body Parent/RIGHT_KNEE/
+      tchildn: PipeServer/Body Parent/RIGHT_ANKLE/
+      initialDir: {x: -0.10998601, y: -0.93459624, z: 0.33827952}
+      initialRotation: {x: 0.5000003, y: 0.50000036, z: -0.49999955, w: -0.49999973}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 13
+    data:
+      parentn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001
+        Spine2/Bip001 L Clavicle/Bip001 L UpperArm/
+      childn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001
+        Spine2/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/
+      tparentn: PipeServer/Body Parent/LEFT_SHOULDER/
+      tchildn: PipeServer/Body Parent/LEFT_ELBOW/
+      initialDir: {x: 0.9946668, y: -0.09784783, z: 0.03261505}
+      initialRotation: {x: 0.00000044703484, y: -0.7071068, z: -0.70710695, w: -0.0000005066395}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 15
+    data:
+      parentn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001
+        Spine2/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/
+      childn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001
+        Spine2/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/
+      tparentn: PipeServer/Body Parent/LEFT_ELBOW/
+      tchildn: PipeServer/Body Parent/LEFT_WRIST/
+      initialDir: {x: 0.9581425, y: 0.011543614, z: -0.2860589}
+      initialRotation: {x: 0.00000044703484, y: -0.7071068, z: -0.70710695, w: -0.0000005066395}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 1
+    data:
+      parentn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 L Thigh/
+      childn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/
+      tparentn: PipeServer/Body Parent/LEFT_HIP/
+      tchildn: PipeServer/Body Parent/LEFT_KNEE/
+      initialDir: {x: 0.08999148, y: -0.99396515, z: 0.06272791}
+      initialRotation: {x: 0.5000003, y: 0.50000036, z: -0.49999955, w: -0.49999973}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  - bone: 3
+    data:
+      parentn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/
+      childn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/Bip001
+        L Foot/
+      tparentn: PipeServer/Body Parent/LEFT_KNEE/
+      tchildn: PipeServer/Body Parent/LEFT_ANKLE/
+      initialDir: {x: 0.12500052, y: -0.9362901, z: 0.3282313}
+      initialRotation: {x: 0.5000003, y: 0.50000036, z: -0.49999955, w: -0.49999973}
+      targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  spineUpDown:
+    parentn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 Spine/
+    childn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001
+      Spine2/Bip001 Neck/
+    tparentn: VirtualHip/
+    tchildn: VirtualNeck/
+    initialDir: {x: -0.011822648, y: 0.91503215, z: -0.40320763}
+    initialRotation: {x: -0.4999996, y: 0.49999973, z: -0.50000036, w: 0.50000036}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  hipsTwist:
+    parentn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/
+    childn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/
+    tparentn: PipeServer/Body Parent/RIGHT_HIP/
+    tchildn: PipeServer/Body Parent/LEFT_HIP/
+    initialDir: {x: 0.9984016, y: 0.045728832, z: -0.03321312}
+    initialRotation: {x: -0.4999996, y: 0.49999973, z: -0.50000036, w: 0.50000036}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  chest:
+    parentn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/
+    childn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/
+    tparentn: PipeServer/Body Parent/RIGHT_HIP/
+    tchildn: PipeServer/Body Parent/LEFT_HIP/
+    initialDir: {x: 0.9984016, y: 0.045728832, z: -0.03321312}
+    initialRotation: {x: -0.4999996, y: 0.49999973, z: -0.50000036, w: 0.50000036}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
+  head:
+    parentn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001
+      Spine2/Bip001 Neck/
+    childn: SantaClaus(Clone)/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001
+      Spine2/Bip001 Neck/Bip001 Head/
+    tparentn: VirtualNeck/
+    tchildn: PipeServer/Body Parent/NOSE/
+    initialDir: {x: 0.04622695, y: 0.6059299, z: -0.7941738}
+    initialRotation: {x: -0.4999996, y: 0.49999973, z: -0.50000036, w: 0.50000036}
+    targetRotation: {x: 0, y: 0, z: 0, w: 0}
