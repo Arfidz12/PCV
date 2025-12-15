@@ -16,7 +16,7 @@ Project ini tentang gimana ngetracking Sebuah Karakter(Avatar) dengan menggunaka
 | UDP bridge | Mengirimkan data pose ke Unity |
 |Unity avatar scene |	Menerjemahkan data menjadi animasi avatar |
 
-# requirements
+# Yang Dibutuhkan
 * Python 3.8
 * OpenCV
 * MediaPipe
