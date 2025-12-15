@@ -1,6 +1,5 @@
 #pipe server
 from body_thread import BodyThread
-from face_thread import FaceThread
 import time
 import global_vars
 from sys import exit
@@ -9,10 +8,6 @@ if __name__ == "__main__":
     # start body tracking thread
     body_thread = BodyThread()
     body_thread.start()
-
-    # start face tracking thread
-    face_thread = FaceThread()
-    face_thread.start()
 
     try:
         i = input("Press Enter to stop...\n")
