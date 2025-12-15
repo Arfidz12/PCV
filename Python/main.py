@@ -1,5 +1,5 @@
 #pipe server
-from body import BodyThread
+from body_thread import BodyThread
 from face_thread import FaceThread
 import time
 import global_vars
