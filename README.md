@@ -30,4 +30,4 @@ Project ini tentang gimana ngetracking Sebuah Karakter(Avatar) dengan menggunaka
 
 3. Buka project Unity lalu import scene dan pastikan script C# untuk menerima UDP aktif. 
 
-4. Jalankan Python capture lalu jalankan scene Unity untuk melihat avatar merespons atau Buka Aplikasi pada BodyTracking.exe pada folder App.
+4. Jalankan Python dengan py main.py jalankan scene Unity untuk melihat avatar merespons atau Buka Aplikasi pada BodyTracking.exe pada folder App.
