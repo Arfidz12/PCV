@@ -17,8 +17,17 @@ Project ini tentang gimana ngetracking Sebuah Karakter(Avatar) dengan menggunaka
 |Unity avatar scene |	Menerjemahkan data menjadi animasi avatar |
 
 # requirements
-* Python 3.8+
+* Python 3.8
 * OpenCV
 * MediaPipe
 * Unity 2021+ atau kompatibel
 * UDP networking permission
+
+# Cara Pakai
+1. Clone repository dan buka folder Python.
+
+2. Pasang dependensi Python: pip install -r requirements.txt pada folder Python.
+
+3. Buka project Unity lalu import scene dan pastikan script C# untuk menerima UDP aktif. 
+
+4. Jalankan Python capture lalu jalankan scene Unity untuk melihat avatar merespons atau Buka Aplikasi pada BodyTracking.exe pada folder App.
