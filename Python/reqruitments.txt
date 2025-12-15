@@ -1,0 +1,4 @@
+opencv-python
+mediapipe
+numpy=1.23
+python-osc>=1.7.5
