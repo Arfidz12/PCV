@@ -41,30 +41,30 @@
      <Compile Include="Assets\Scripts\TransformCopier.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
      <Compile Include="Assets\Scripts\MoveAlongCircle.cs" />
+     <Compile Include="Assets\extOSC\Examples\13) Marshalling\Scripts\MarshallingExample.cs" />
+     <Compile Include="Assets\extOSC\Examples\06) Mapping\Scripts\MappingExample.cs" />
      <Compile Include="Assets\Scripts\ServerUDP.cs" />
+     <Compile Include="Assets\extOSC\Examples\10) Ping\Scripts\PingExample.cs" />
      <Compile Include="Assets\Scripts\Avatar.cs" />
+     <Compile Include="Assets\extOSC\Examples\11) Array\Scripts\ArrayExample.cs" />
      <Compile Include="Assets\Scripts\PreviewCamera.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
+     <Compile Include="Assets\extOSC\Examples\07) Scripting\Scripts\ScriptingExample.cs" />
+     <Compile Include="Assets\extOSC\Examples\03) Events\Scripts\EventsExample.cs" />
+     <Compile Include="Assets\extOSC\Examples\01) Getting Started\Scripts\SimpleMessageReceiver.cs" />
      <Compile Include="Assets\Scripts\Landmark.cs" />
+     <Compile Include="Assets\extOSC\Examples\04) Informers\Scripts\InformersExample.cs" />
      <Compile Include="Assets\Scripts\CharacterSwitcher.cs" />
+     <Compile Include="Assets\extOSC\Examples\01) Getting Started\Scripts\SimpleMessageTransmitter.cs" />
      <Compile Include="Assets\Scripts\CalibrationData.cs" />
      <Compile Include="Assets\Scripts\FaceReceiverMultiMesh.cs" />
      <Compile Include="Assets\Scripts\PipeServer.cs" />
      <Compile Include="Assets\Scripts\CalibrationTimer.cs" />
-     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
-     <Compile Include="Assets\Scripts\HandReceiver.cs" />
-     <Compile Include="Assets\extOSC\Examples\09) Address Masks\Scripts\AddressMaskExample.cs" />
-     <Compile Include="Assets\extOSC\Examples\07) Scripting\Scripts\ScriptingExample.cs" />
-     <Compile Include="Assets\extOSC\Examples\03) Events\Scripts\EventsExample.cs" />
-     <Compile Include="Assets\extOSC\Examples\06) Mapping\Scripts\MappingExample.cs" />
-     <Compile Include="Assets\extOSC\Examples\01) Getting Started\Scripts\SimpleMessageReceiver.cs" />
-     <Compile Include="Assets\extOSC\Examples\10) Ping\Scripts\PingExample.cs" />
-     <Compile Include="Assets\extOSC\Examples\04) Informers\Scripts\InformersExample.cs" />
-     <Compile Include="Assets\extOSC\Examples\01) Getting Started\Scripts\SimpleMessageTransmitter.cs" />
-     <Compile Include="Assets\extOSC\Examples\12) Match Pattern\Scripts\MatchPatternExample.cs" />
-     <Compile Include="Assets\extOSC\Examples\11) Array\Scripts\ArrayExample.cs" />
-     <Compile Include="Assets\extOSC\Examples\13) Marshalling\Scripts\MarshallingExample.cs" />
      <Compile Include="Assets\extOSC\Examples\02) Value Types\Scripts\ValueTypesExample.cs" />
+     <Compile Include="Assets\Scripts\HandReceiver.cs" />
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
+     <Compile Include="Assets\extOSC\Examples\09) Address Masks\Scripts\AddressMaskExample.cs" />
+     <Compile Include="Assets\extOSC\Examples\12) Match Pattern\Scripts\MatchPatternExample.cs" />
      <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -764,9 +764,6 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
         <HintPath>D:\PCV\Unity\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>D:\PCV\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>D:\PCV\Unity\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -781,6 +778,9 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>D:\PCV\Unity\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>D:\PCV\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>D:\PCV\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
